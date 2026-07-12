@@ -6,7 +6,7 @@
   "description": "Fortnite-style visual indicators for footsteps and projectile launches, for players who can't hear or don't have directional audio.",
   "authors": [],
   "contact": {},
-  "license": "MIT",
+  "license": "Vers",
   "icon": "assets/soundindicators/icon.png",
   "environment": "client",
   "entrypoints": {
