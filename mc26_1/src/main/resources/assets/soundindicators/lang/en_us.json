@@ -1,0 +1,40 @@
+{
+  "soundindicators.config.title": "Sound Indicators",
+  "soundindicators.config.category.general": "General",
+  "soundindicators.config.category.appearance": "Appearance",
+  "soundindicators.config.category.behavior": "Behavior",
+
+  "soundindicators.config.enabled": "Enable Sound Indicators",
+  "soundindicators.config.enabled.tooltip": "Master toggle. Turns the entire directional sound overlay on or off.",
+
+  "soundindicators.config.showFootsteps": "Show Footstep Indicators",
+  "soundindicators.config.showFootsteps.tooltip": "Show an indicator whenever a nearby footstep sound is heard.",
+
+  "soundindicators.config.showProjectiles": "Show Projectile Indicators",
+  "soundindicators.config.showProjectiles.tooltip": "Show an indicator whenever a projectile is fired or thrown nearby.",
+
+  "soundindicators.config.showBlockBreaks": "Show Block Break Indicators",
+  "soundindicators.config.showBlockBreaks.tooltip": "Show an indicator whenever a block is broken nearby.",
+
+  "soundindicators.config.iconSize": "Icon Size",
+  "soundindicators.config.iconSize.tooltip": "Size, in pixels, of the footstep/projectile icons.",
+
+  "soundindicators.config.circleDistance": "Ring Distance",
+  "soundindicators.config.circleDistance.tooltip": "Distance, in pixels, of the indicator ring from the crosshair.",
+
+  "soundindicators.config.circleOpacity": "Ring Opacity (%)",
+  "soundindicators.config.circleOpacity.tooltip": "Opacity of the colored arc/ring, from 0% (invisible) to 100% (fully opaque).",
+
+  "soundindicators.config.circleColor": "Ring Color (hex)",
+  "soundindicators.config.circleColor.tooltip": "Hex color of the arc/ring, e.g. #FFA500. The leading # is optional.",
+  "soundindicators.config.circleColor.invalid": "Enter a valid hex color, e.g. #FFA500 or FFA500",
+
+  "soundindicators.config.arcWidth": "Arc Width (degrees)",
+  "soundindicators.config.arcWidth.tooltip": "Angular width of each drawn arc segment. Overlapping arcs from multiple sounds stack into a full ring when you're surrounded.",
+
+  "soundindicators.config.displayDuration": "Display Duration (ms)",
+  "soundindicators.config.displayDuration.tooltip": "How long, in milliseconds, an indicator stays on screen before disappearing.",
+
+  "soundindicators.config.fadeOut": "Fade Out",
+  "soundindicators.config.fadeOut.tooltip": "Whether indicators fade out smoothly over their lifetime, rather than disappearing instantly."
+}

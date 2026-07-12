@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "Fortnite-style visual indicators for footsteps and projectile launches, for players who can't hear or don't have directional audio.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/soundindicators/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.soundindicators.client.SoundIndicatorsClient"
+    ],
+    "modmenu": [
+      "com.soundindicators.config.SoundIndicatorsModMenu"
+    ]
+  },
+  "mixins": [
+    "soundindicators.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "cloth-config": "*"
+  },
+  "recommends": {
+    "modmenu": "*"
+  }
+}
